@@ -59,12 +59,14 @@ export default function Home() {
       flexDirection="column" 
       justifyContent="center" 
       alignItems="center"
+      backgroundColor="rgb(77, 17, 77)"
     >
       <Stack
         direction = "column"
         width="600px"
         height="700px"
         border="1px solid black"
+        backgroundColor="rgb(57, 77, 77)"
         p={2}
         spacing={3}
         >
@@ -93,6 +95,7 @@ export default function Home() {
                       color="white"
                       borderRadius={16}
                       p={3}
+                      backgroundColor="rgb(17, 17, 27)"
                       >{message.content}</Box>  
                   </Box>
                 ))
